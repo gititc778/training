@@ -1,0 +1,14 @@
+✅ What You Should Do:
+Create a New Storage Account with HNS Enabled:
+
+Go to Azure Portal → Storage Accounts → Create.
+
+Under Advanced → Data Lake Storage Gen2, check:
+
+✅ Enable hierarchical namespace
+
+This new account will support Synapse Analytics features that rely on HNS (like workspace default storage, or certain query types).
+
+Move or Copy Your Data (if needed):
+
+Use AzCopy, Azure Data Factory, or Storage Explorer to migrate existing data from your non-HNS account to the new one.
