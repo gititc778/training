@@ -9,3 +9,4 @@
 # Click Install to complete the installation
 ![start install](../../images/vmws/4-Click_finish_to_complete.png)
 
+# Click Install to complete the installation
