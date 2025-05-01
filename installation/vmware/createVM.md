@@ -3,6 +3,7 @@
 
 ![start install](../../images/vmws/6-creating_vm.png)
 
+# Browse to the location of your ISO image
 ![start install](../../images/vmws/7-select_your_iso_image.png)
 
 # Name your VM and provide location
