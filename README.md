@@ -1,2 +1,3 @@
-# training
-![Login screen of the app](./images/wp.jpg)
+# Installing VMWare Workstation
+(./images/1-vmws_install.png)
+(./images/1-vmws_install.png)
