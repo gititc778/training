@@ -26,17 +26,17 @@
       git restore --staged .
    ```
 
-# Local Repository
+#### Local Repository
 
-   ## You want to undo last commit but keep the changes staged because you might want to change the commit message or forgot to include a file
-
-   ### git reset --soft HEAD~1
-
-   ### git commit -m "Better commit message"
-
-
-   ## You want undo last commit, unstage the changes but keep the changes in your working directory
-   ### git reset --mixed HEAD~1
+- You want to undo last commit but keep the changes staged because you might want to change the commit message or forgot to include a file
+   ```bash
+      git reset --soft HEAD~1
+      git commit -m "Better commit message"
+   ```
+- You want undo last commit, unstage the changes but keep the changes in your working directory
+   ```bash
+      git reset --mixed HEAD~1
+   ```
 
 
 
