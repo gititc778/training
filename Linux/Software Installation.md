@@ -51,26 +51,6 @@ sudo dnf remove <package>
 Remove a package using `dnf` (Fedora/RHEL 8+).
 
 ```bash
-sudo pacman -S <package>
-```
-Install a package (Arch Linux).
-
-```bash
-sudo pacman -R <package>
-```
-Remove a package (Arch Linux).
-
-```bash
-snap install <package>
-```
-Install a Snap package.
-
-```bash
-flatpak install <remote> <package>
-```
-Install a Flatpak package from a remote repo.
-
-```bash
 which <command>
 ```
 Find the location of an installed command.
