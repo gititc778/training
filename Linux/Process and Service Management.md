@@ -11,11 +11,6 @@ top
 Display real-time system resource usage.
 
 ```bash
-htop
-```
-Interactive process viewer (requires `htop` package).
-
-```bash
 kill <PID>
 ```
 Terminate a process by its Process ID.
@@ -30,30 +25,6 @@ pkill <process_name>
 ```
 Kill a process by name.
 
-```bash
-nice -n 10 <command>
-```
-Start a process with a lower priority.
-
-```bash
-renice -n 5 -p <PID>
-```
-Change the priority of an existing process.
-
-```bash
-jobs
-```
-List background jobs in the current shell.
-
-```bash
-bg
-```
-Resume a job in the background.
-
-```bash
-fg
-```
-Bring a background job to the foreground.
 
 ```bash
 systemctl status <service>
