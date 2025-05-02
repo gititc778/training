@@ -4,11 +4,11 @@
 
 - You want to discard the changes made to your file(s) but you didnt move it to staging area (git add)
 
-  1. for a single file
+1. for a single file
      ```bash
        git restore <file name>
      ```
-  2. for all files
+2. for all files
      ```bash
         git restore .
      ```     
