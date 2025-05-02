@@ -1,11 +1,11 @@
 # Reverting changes at different stages of Git
 
-# Working Directory
+## Working Directory
 
 > You want to discard the changes made to your file(s) but you didnt move it to staging area (git add)
 
-   ### for a single file
-   ### git restore <file name>
+>> for a single file
+>> git restore <file name>
 
    ### for all files
    ### git restore .
