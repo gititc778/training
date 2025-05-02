@@ -13,15 +13,18 @@
         git restore .
      ```     
 
-# Staging Area
+### Staging Area
 
-   ## You want to move from staging area to working directory (after running git add .)
+- You want to move from staging area to working directory (after running git add .)
 
-   ### for a single file
-   ### git restore --staged filename
-
-   ### for all files
-   ### git restore --staged .
+1. for a single file
+   ```bash
+      git restore --staged filename
+   ```
+2. for all files
+   ```bash
+      git restore --staged .
+   ```
 
 # Local Repository
 
