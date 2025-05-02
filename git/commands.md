@@ -2,7 +2,7 @@
 
 # Working Directory
 
-   ## You want to discard the changes made to your file(s) but you didnt move it to staging area (git add)
+> You want to discard the changes made to your file(s) but you didnt move it to staging area (git add)
 
    ### for a single file
    ### git restore <file name>
@@ -22,8 +22,7 @@
 
 # Local Repository
 
-   ## You want undo last commit but keep the changes staged because you might want to change the commit message or forgot
-   ## to include a file
+   ## You want to undo last commit but keep the changes staged because you might want to change the commit message or forgot to include a file
 
    ### git reset --soft HEAD~1
 
