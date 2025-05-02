@@ -2,10 +2,13 @@
 
 ## Working Directory
 
-> You want to discard the changes made to your file(s) but you didnt move it to staging area (git add)
+- You want to discard the changes made to your file(s) but you didnt move it to staging area (git add)
 
->> for a single file
->> git restore <file name>
+  1. for a single file
+     ```bash
+       git restore <file name>
+     ```
+
 
    ### for all files
    ### git restore .
