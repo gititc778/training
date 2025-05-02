@@ -26,7 +26,7 @@
       git restore --staged .
    ```
 
-#### Local Repository
+### Local Repository
 
 - You want to undo last commit but keep the changes staged because you might want to change the commit message or forgot to include a file
    ```bash
