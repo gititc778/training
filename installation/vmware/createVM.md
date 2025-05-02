@@ -37,8 +37,3 @@
 ![start install](../../images/vmws/17-press_finish_to_create.png)
 
 
-# wrong heading
-![start install](../../images/vmws/17-press_finish_to_create.png)
-
-
-
