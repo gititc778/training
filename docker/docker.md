@@ -1,4 +1,4 @@
-# Installing Docker on Ubuntu/Debian
+
 
 ## Check Docker version
 ```bash
