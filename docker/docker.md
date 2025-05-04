@@ -1,0 +1,52 @@
+# Installing Docker on Ubuntu/Debian
+
+## Check Docker version
+```bash
+docker --version
+```
+
+## Add your user to Docker group to run Docker commands without Sudo
+```bash
+sudo usermod -aG docker $USER
+```
+
+## Pull an image from Docker hub
+```bash
+docker pull <image>
+```
+
+## List all images on your system
+```bash
+docker images
+```
+
+## Run a container
+```bash
+docker run <image>
+```
+
+## List running containers
+```bash
+docker ps
+```
+## Stop a container
+```bash
+docker stop <container ID>
+```
+
+## Data persistence
+### You can mount volumes in two main ways in Docker
+#### 1 - Bind Mounts (Host Directory → Container)
+##### Mounts a specific path from the host into the container.
+```bash
+docker run -v /host/path:/container/path nginx
+```
+#### 2. Named Volumes (Docker-managed)
+##### Docker creates and manages this volume.
+##### Data is stored under /var/lib/docker/volumes/ on the host.
+```bash
+docker run -v myvolume:/container/path nginx
+```
+
+
+
