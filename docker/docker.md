@@ -48,5 +48,12 @@ docker run -v /host/path:/container/path nginx
 docker run -v myvolume:/container/path nginx
 ```
 
+## Build a Docker Image from Dockerfile
+##### . Refers to the current directory (Dockerfile context).
+##### By default Docker will look for a file name exactly as Dockerfile
+```bash
+docker build .
+```
+
 
 
