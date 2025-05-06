@@ -25,10 +25,16 @@ docker images
 docker run <image>
 ```
 
+## Run a container with options
+```bash
+docker run -d -p 80:80 --name nginx-server nginx
+```
+
 ## List running containers
 ```bash
 docker ps
 ```
+
 ## Stop a container
 ```bash
 docker stop <container ID>
@@ -54,6 +60,8 @@ docker run -v myvolume:/container/path nginx
 ```bash
 docker build .
 ```
+
+
 
 
 
