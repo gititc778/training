@@ -61,7 +61,19 @@ docker run -v myvolume:/container/path nginx
 docker build .
 ```
 
+## Logging in to docker hub
+```bash
+docker login
+```
 
+## Tag you image 
+```bash
+docker tag <image-id> myrepo/flask-web-app:latest
+```
 
+## Pushing the image to docker hub
+```bash
+docker push myrepo/flask-web-app:latest
+```
 
 
