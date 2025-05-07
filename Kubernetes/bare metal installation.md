@@ -1,6 +1,6 @@
 ## Installing bare metal Kubernetes Cluster
+
 ```bash
-On masternode and workernode - ->
 sudo apt-get update
 sudo apt-get install docker.io
 sudo apt-get install -y apt-transport-https ca-certificates curl gnupg
@@ -16,5 +16,10 @@ mkdir -p $HOME/.kube
 sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
 sudo chown $(id -u):$(id -g) $HOME/.kube/config
 kubectl apply -f https://raw.githubusercontent.com/projectcalico/calico/v3.26.0/manifests/calico.yaml
+```
+### When the installation is completed run the following on Master node
+### then run the command you get in each worker node
+```bash
 kubeadm token create --print-join-command
 ```
+
