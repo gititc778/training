@@ -16,12 +16,12 @@ sudo kubeadm init --ignore-preflight-errors=all
 mkdir -p $HOME/.kube
 sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
 sudo chown $(id -u):$(id -g) $HOME/.kube/config
-```
+
 
 ##### Add Worker nodes.
-###### The worker node should have kubeadm, kubelet and kubectl installed before running the following command
+###### The worker node should have kubeadm, kubelet and kubectl installed.
 
-```bash
+
 kubeadm token create --print-join-command
 ```
 
