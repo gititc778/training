@@ -87,6 +87,12 @@ docker network ls
 docker volume ls
 ```
 
+## Logging in the container
+```bash
+docker exec -it <container id> bash
+```
+
+
 
 
 
