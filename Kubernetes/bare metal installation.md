@@ -17,7 +17,7 @@ mkdir -p $HOME/.kube
 sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
 sudo chown $(id -u):$(id -g) $HOME/.kube/config
 
-### To join Worker nodes
+### To join Worker nodes. The worker node should have kubeadm, kubelet and kubectl installed before running the following command
 kubeadm token create --print-join-command
 ```
 
