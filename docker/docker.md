@@ -77,3 +77,16 @@ docker push myrepo/flask-web-app:latest
 ```
 
 
+## Listing Network
+```bash
+docker network ls
+```
+
+## Listing Volumes
+```bash
+docker volume ls
+```
+
+
+
+
