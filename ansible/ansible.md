@@ -17,6 +17,8 @@ cd ansible-project
 #### roles/: reusable role directories
 
 ## Write an inventory file
+##### Create a file name inventory.ini in the root of your project
+
 ```ini
 [webservers]
 10.1.1.1
@@ -24,7 +26,29 @@ cd ansible-project
 [dbserver]
 11.1.1.1
 ```
+##### ansible stores the default inventory file at /etc/ansible/hosts
+##### use -i flag to provide your own inventory file
 
+```bash
+ansible -i inventory.ini all -m ping
+```
+
+### Setup SSH
+```bash
+ssh-keygen -t ed25519
+ssh-copy-id user@10.1.1.1
+```
+
+### Allow password less login on the remote server
+```bash
+sudo nano /etc/ssh/sshd_config
+```
+##### change PubkeyAuthentication to yes
+##### change PasswordAuthentication yes
+
+```bash
+sudo systemctl restart sshd
+```
 
 
 
