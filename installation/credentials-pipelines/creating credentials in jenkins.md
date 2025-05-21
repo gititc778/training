@@ -1,5 +1,5 @@
 ###### Creating Docker credentials in Jenkins
-
+```ini
 Log in to Jenkins
 click on manage jenkins
 then go to credentials and click on domain
@@ -47,3 +47,4 @@ Test the Webhook
 to test the push you can add/remove pizza
     /sampleApp/Services/PizzaService.cs
 
+```
