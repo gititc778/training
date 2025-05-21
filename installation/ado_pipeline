@@ -1,0 +1,17 @@
+trigger:
+- main
+
+pool:
+  name: itc-ec2-linux
+
+stages:
+  - stage: checkout_code
+    jobs:
+      - job: Checkout
+        steps:
+          - checkout: self
+  - stage: Build_Docker_image
+    jobs:
+      - job: Build
+        steps:
+          - task: Docker@2
