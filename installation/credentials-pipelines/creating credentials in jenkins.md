@@ -13,16 +13,19 @@ add a username and password
 un: dockeritc778
 
 pw: PAT  (however password will also work)
+```
 
 ###### adding K8s credentials in Jenkins
+```ini
  type of credential
 
  secret text.
 
  upload kubeconfig file in jenkins
+```
 
 ###### For GitHub → Jenkins Webhook
-
+```ini
 if you are not able to see  add web hook in git hub go to this url
 
     https://github.com/gititc778/sampleApp/settings/hooks/new
